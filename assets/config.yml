@@ -1,10 +1,10 @@
 ---
-title: "Homer Theme"
-subtitle: "Walkx"
+title: "home-sweet-home"
+subtitle: "aenig"
 logo: "logo.png"
 
 header: false
-footer: '<p>Theme made with <span class="has-text-danger">❤️</span> by <a href="https://github.com/WalkxCode">Walkx</a></p>' # Set false if you want to hide it.
+footer: false
 
 stylesheet:
   - "assets/custom.css"
@@ -42,24 +42,21 @@ colors:
     background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "//GitHub"
-    icon: "fas fa-github"
+  - name: "Home Status"
+    icon: "fas dietpi"
     items:
-      - name: "Homer Theme"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
-        subtitle: "The official Homer Theme github!"
-        tag: "github"
+      - name: "Dietpi"
+        logo: "assets/tools/dietpi.png" # Change github.png to the name of your own custom icon!
+        subtitle: "Pi Status"
+        tag: "pi"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "https://github.com/WalkxCode/Homer-Theme"
+        url: "https://pi.home.aenig.in"
+        target: "_blank"
+      - name: "Nginx Proxy Manager"
+        logo: "assets/tools/npm.png" # Change github.png to the name of your own custom icon!
+        subtitle: "Manage Proxy Hosts"
+        tag: "pi"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "https://proxy.home.aenig.in"
         target: "_blank"
 
-  - name: "//Reddit"
-    icon: "fas fa-reddit"
-    items:
-      - name: "The original reddit post!"
-        logo: "assets/tools/reddit.png"
-        subtitle: "Yes... this is Homer."
-        tag: "reddit"
-        tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
-        target: "_blank"
